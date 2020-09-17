@@ -1,0 +1,9 @@
+server:
+  port: 9090
+
+# 加入admin-server监控.
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8002
